@@ -1,0 +1,30 @@
+@import './fonts.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    //border: 1px solid red;
+}
+
+html {
+    font-family: 'mr';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
